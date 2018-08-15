@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Squirrel";
+  src: url("fonts/PTN77F-webfont.eot") format("eot"),
+       url("fonts/PTN77F-webfont.svg") format("svg"),
+       url("fonts/PTN77F-webfont.ttf") format("ttf"),
+       url("fonts/PTN77F-webfont.woff") format("woff");
+}
+body{
+	margin: 0px;
+    font-family: 'squirrel' , sans-serif;
+    color: silver;
+}
+.nav-bar{
+	padding: 5px;
+}
+.nav-bar ul li{
+	margin-right: 64px;
+}
+.header ul li{
+	list-style: none;
+	display: inline;
+}
+.header{
+	display: flex;
+	margin-left: 50px;
+	margin-top: -11px;
+}
+.main-header{
+	height:450px;
+	background-image: url('img/header-bg.png')
+}
+.center {
+ width: 750px;
+ margin: auto;
+}
+input{
+	margin-top: 13px;
+	margin-right: 140px ;
+	border-radius: 5px;
+	height: 30px;
+}
+.header-img{
+	float: left;
+	margin-left: 118px;
+}
+.header-two{
+	margin: auto;
+	width: 512px;
+}
+.header-two h4{
+  color: #4e8ab6;
+}
+.trailer{
+	display: flex;
+	margin-top: 42px;
+}
+.trailer2{
+	margin-left: 40px;
+}
+.trailer1 h4{
+ margin-top: 2px;
+}
+.trailer2 h4{
+ margin-top: 2px;
+}
