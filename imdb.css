@@ -53,6 +53,11 @@ input{
 .header-two h4{
   color: #4e8ab6;
 }
+.search-bar input{
+	background-image: url('img/search-icon.png');
+	background-repeat: no-repeat;
+    background-position: right;
+}
 .trailer{
 	display: flex;
 	margin-top: 42px;
@@ -301,3 +306,5 @@ input{
         background-position: bottom;
     }
 }
+
+
