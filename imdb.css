@@ -270,3 +270,34 @@ input{
 .views{
 	margin-left: 21px;
 }
+.rating{
+	background-image: url('img/star-icon.png');
+	height: 17px;
+    width: 88px;
+	margin: auto;
+	margin-top: 12px;
+}
+.rating:hover{
+    animation-name: liked;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+@keyframes liked{
+    0%{
+        background-position: bottom;
+    }
+    20%{
+        background-position: bottom;
+    }
+    40%{
+        background-position: bottom;
+    }
+    50%{
+        background-position: bottom;
+    }
+    100%{
+        background-position: bottom;
+    }
+}
